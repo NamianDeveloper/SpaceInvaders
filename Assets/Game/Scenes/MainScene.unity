@@ -680,8 +680,8 @@ Transform:
   m_LocalScale: {x: 6, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 837108377}
-  m_RootOrder: 1
+  m_Father: {fileID: 1112727412}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &426033904
 BoxCollider2D:
@@ -1188,11 +1188,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 939074328}
   - {fileID: 1112727412}
-  - {fileID: 426033903}
   - {fileID: 432185798}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &863297274
 GameObject:
@@ -1227,7 +1227,7 @@ Transform:
   - {fileID: 1425472036}
   - {fileID: 1930169486}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &939074327
 GameObject:
@@ -1258,7 +1258,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 939074327}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -4.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1266,8 +1266,8 @@ Transform:
   - {fileID: 946060}
   - {fileID: 1656649524}
   - {fileID: 1317669923}
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_Father: {fileID: 837108377}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &939074329
 Rigidbody2D:
@@ -1655,7 +1655,7 @@ GameObject:
   - component: {fileID: 1112727416}
   - component: {fileID: 1112727417}
   m_Layer: 0
-  m_Name: Collider
+  m_Name: Colliders
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1672,9 +1672,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 426033903}
   m_Father: {fileID: 837108377}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1112727413
 BoxCollider2D:
@@ -2607,7 +2608,7 @@ RectTransform:
   - {fileID: 626790134}
   - {fileID: 169455447}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
